@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+    font-family: "cir";
+    src: url("circular-book.woff");
+}
 
 footer {
     margin-top:20px;
@@ -52,7 +55,7 @@ footer p {
 h3 {
     text-align: center;
     margin-top: 50px;
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 #contactmebody p {
@@ -60,7 +63,7 @@ h3 {
 }
 
 #contactmebody h3 {
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 #contactmebody a p {
@@ -81,10 +84,9 @@ h3 {
     color: white;
 }
 
-#introduction, #computersciencepar, #astronomypar, #concludepar {
-    font-size: 14px;
+#career_goal, #explanation, #strengths, #accomplishments, #conclusion_par {
+    font-size: 18px;
 }
-
 
 /*.nav-item:hover {
     transform: rotate(180deg);
@@ -107,7 +109,7 @@ Aitha_AboutMe section {
 
 h1 {
     margin-left: 250px;
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 #fullnavbar {
@@ -117,33 +119,34 @@ h1 {
 header {
     background-color: black;
     color: white;
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 body {
-    background-image: url('https://images.unsplash.com/photo-1492446190781-58ac4285911d?auto=format&fit=crop&w=1988&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+    background-image: url('https://images.unsplash.com/photo-1492446190781-58ac4285911d?auto=format&fit=crop&w=1988&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')!important;
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgba(0,0,0,0.3);
     color: white;
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 #resumebody h1 {
-    font-family: Inconsolata;
+    font-family: "cir";
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
 
 #resumebody h3 {
-    font-family: Inconsolata;
+    font-family: "cir";
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
 
 #resumebody h2 {
-    font-family: Inconsolata;
+    font-family: "cir";
     font-weight: bold;
     font-style: italic;
     text-align: center;
@@ -151,15 +154,15 @@ body {
 }
 
 #resumebody {
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 #resumebody p {
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
 #resumebody ul {
-    font-family: Inconsolata;
+    font-family: "cir";
     font-size: 20px;
 }
 
@@ -312,6 +315,18 @@ section {
 }
 
 h2, h4, p {
-    font-family: Inconsolata;
+    font-family: "cir";
 }
 
+footer i {
+    font-size: 30px;
+    color: white;
+}
+
+#fullnavbar {
+    margin-top: 15px;
+}
+
+header {
+    padding-bottom: 20px
+}
