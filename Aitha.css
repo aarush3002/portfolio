@@ -1,0 +1,317 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+footer {
+    margin-top:20px;
+    margin-bottom:20px;
+    background: none;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+#google {
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#contactmeform {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#googleiconthing {
+    height: 100px;
+    width: 100px;
+}
+
+.text-white {
+    color: white;
+}
+
+#githublink {
+    margin-right: 20px;
+}
+
+#github {
+    height: 100px;
+    width: 100px;
+}
+
+#facebook {
+    height: 100px;
+    width: 100px;
+}
+
+#aboutmebody img {
+    margin-right:20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Inconsolata;
+}
+
+#contactmebody p {
+    text-align: center;
+}
+
+#contactmebody h3 {
+    font-family: Inconsolata;
+}
+
+#contactmebody a p {
+    text-align: center;
+}
+
+#resumebody {
+    background-color: black;
+    color: white;
+}
+
+#careergoal {
+    text-align: center;
+}
+.projectheader {
+    text-align:right;
+    margin-right: 25px;
+    color: white;
+}
+
+#introduction, #computersciencepar, #astronomypar, #concludepar {
+    font-size: 14px;
+}
+
+
+/*.nav-item:hover {
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}*/
+
+Aitha_AboutMe section {
+    font-size: 14px;
+}
+
+.projectinfo {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+
+#projectsbody {
+    background-color: black;
+}
+
+h1 {
+    margin-left: 250px;
+    font-family: Inconsolata;
+}
+
+#fullnavbar {
+    margin-right: 200px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Inconsolata;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1492446190781-58ac4285911d?auto=format&fit=crop&w=1988&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Inconsolata;
+}
+
+#resumebody h1 {
+    font-family: Inconsolata;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#resumebody h3 {
+    font-family: Inconsolata;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#resumebody h2 {
+    font-family: Inconsolata;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+#resumebody {
+    font-family: Inconsolata;
+}
+
+#resumebody p {
+    font-family: Inconsolata;
+}
+
+#resumebody ul {
+    font-family: Inconsolata;
+    font-size: 20px;
+}
+
+#specialmargin {
+    margin-left: 250px;
+}
+
+#aboutmebody #introduction {
+    margin-top: 50px;
+    background-color: black;
+}
+
+#aboutmebody img {
+    margin-top: 30px;
+}
+
+#contactmecontent {
+    background-color: black;
+    color: white;
+}
+
+/*.jumbotron, .container {
+    background-color: black;
+}*/
+
+
+
+section {
+    background-color: black;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.75;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.75;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 102%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.75;
+}
+.graduation:hover .overlay1 {
+  bottom: 0;
+  height: 100%;
+}
+
+.mewithdog:hover .overlay2 {
+  bottom: 0;
+  height: 100%;
+}
+.mewithbro:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#deltasiglink {
+    color: blue;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.graduation {
+    overflow-x: hidden
+}
+
+.aboutmecontent {
+    background-color: black;
+}
+
+#aboutmepic:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+#aboutmepic {
+    height:200px;
+    width:162px;
+}
+.img-thumbnail:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+h2, h4, p {
+    font-family: Inconsolata;
+}
+
