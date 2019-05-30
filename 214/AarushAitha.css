@@ -1,0 +1,39 @@
+img {
+    border: 2px dotted black;
+}
+
+html {
+    background-color: #cf4872;
+}
+
+.intro {
+    background-color: cyan;
+    color: purple;
+    padding: 0px 50px 0px 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.hobbies {
+    background-color: green;
+    color: #f7a5b3;
+    padding: 0px 50px 0px 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.food {
+    background-color: #ec8825;
+    color: #87dbc9;
+    padding: 0px 50px 0px 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.acknowledgments {
+    background-color: #2d1746;
+    color: #ffffff;
+    padding: 0px 50px 0px 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
